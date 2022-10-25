@@ -1,3 +1,7 @@
 mail:
   domain: gmail.com
-  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/songflow
+      uuid-representation: standard
